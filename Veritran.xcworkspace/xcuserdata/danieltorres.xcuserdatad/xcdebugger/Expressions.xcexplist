@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AccountControllerTests.testUserPressedWithDrawButton_ShouldPresentAnAlertWithATextField():AccountControllerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sut.vc">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

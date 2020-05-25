@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3955EA247B233700BAD3EB /* AccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3955E9247B233700BAD3EB /* AccountListViewController.swift */; };
+		FB3955EC247B271300BAD3EB /* AccountListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3955EB247B271300BAD3EB /* AccountListViewControllerTests.swift */; };
+		FB3955EE247B293700BAD3EB /* AccounsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3955ED247B293700BAD3EB /* AccounsListController.swift */; };
+		FB3955F0247B2CDF00BAD3EB /* AccountListControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3955EF247B2CDF00BAD3EB /* AccountListControllerTests.swift */; };
+		FB3955F3247B36B000BAD3EB /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3955F2247B36B000BAD3EB /* AccountCell.swift */; };
+		FB3955F5247B41BF00BAD3EB /* FactoryAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3955F4247B41BF00BAD3EB /* FactoryAlertController.swift */; };
+		FB3955F8247B71F000BAD3EB /* RouterTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3955F7247B71F000BAD3EB /* RouterTransfer.swift */; };
+		FB3955FA247B729200BAD3EB /* RouterTransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3955F9247B729200BAD3EB /* RouterTransferTests.swift */; };
+		FB450E97247B950100C9BD46 /* VeritranBankEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB450E95247B94C900C9BD46 /* VeritranBankEngine.framework */; };
+		FB450E98247B950100C9BD46 /* VeritranBankEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB450E95247B94C900C9BD46 /* VeritranBankEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB916F7524799BBF00B1BCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB916F7424799BBF00B1BCF6 /* AppDelegate.swift */; };
+		FB916F7724799BBF00B1BCF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB916F7624799BBF00B1BCF6 /* SceneDelegate.swift */; };
+		FB916F7C24799BBF00B1BCF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB916F7A24799BBF00B1BCF6 /* Main.storyboard */; };
+		FB916F7E24799BC200B1BCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB916F7D24799BC200B1BCF6 /* Assets.xcassets */; };
+		FB916F8124799BC200B1BCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB916F7F24799BC200B1BCF6 /* LaunchScreen.storyboard */; };
+		FB91706D2479B90800B1BCF6 /* AccountViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91706C2479B90800B1BCF6 /* AccountViewTests.swift */; };
+		FB91706F2479BBAD00B1BCF6 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91706E2479BBAD00B1BCF6 /* AccountViewController.swift */; };
+		FB9170732479C7A800B1BCF6 /* AccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9170722479C7A800B1BCF6 /* AccountPresenter.swift */; };
+		FB9170752479CD1600B1BCF6 /* AccountPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9170742479CD1600B1BCF6 /* AccountPresenterTests.swift */; };
+		FB9170782479E5F500B1BCF6 /* AccountControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9170772479E5F500B1BCF6 /* AccountControllerTests.swift */; };
+		FB91707A2479E64900B1BCF6 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9170792479E64900B1BCF6 /* AccountController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB916F8824799BC200B1BCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB916F6924799BBF00B1BCF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB916F7024799BBF00B1BCF6;
+			remoteInfo = "VeritranBank-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB450E99247B950100C9BD46 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB450E98247B950100C9BD46 /* VeritranBankEngine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB3955E9247B233700BAD3EB /* AccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewController.swift; sourceTree = "<group>"; };
+		FB3955EB247B271300BAD3EB /* AccountListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewControllerTests.swift; sourceTree = "<group>"; };
+		FB3955ED247B293700BAD3EB /* AccounsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccounsListController.swift; sourceTree = "<group>"; };
+		FB3955EF247B2CDF00BAD3EB /* AccountListControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListControllerTests.swift; sourceTree = "<group>"; };
+		FB3955F2247B36B000BAD3EB /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		FB3955F4247B41BF00BAD3EB /* FactoryAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryAlertController.swift; sourceTree = "<group>"; };
+		FB3955F7247B71F000BAD3EB /* RouterTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTransfer.swift; sourceTree = "<group>"; };
+		FB3955F9247B729200BAD3EB /* RouterTransferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RouterTransferTests.swift; path = Router/RouterTransferTests.swift; sourceTree = "<group>"; };
+		FB450E95247B94C900C9BD46 /* VeritranBankEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VeritranBankEngine.framework; path = "../../../../../PROJECTS/OmdbIosApp/simpleOMDB/DerivedData/Veritran-fpkwbuumpmgvjlfdevxkkdpcjyth/Build/Products/Debug-iphoneos/VeritranBankEngine.framework"; sourceTree = "<group>"; };
+		FB916F7124799BBF00B1BCF6 /* VeritranBank-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VeritranBank-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB916F7424799BBF00B1BCF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB916F7624799BBF00B1BCF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB916F7B24799BBF00B1BCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB916F7D24799BC200B1BCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB916F8024799BC200B1BCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB916F8224799BC200B1BCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB916F8724799BC200B1BCF6 /* VeritranBank-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VeritranBank-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB916F8D24799BC200B1BCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB91706C2479B90800B1BCF6 /* AccountViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewTests.swift; sourceTree = "<group>"; };
+		FB91706E2479BBAD00B1BCF6 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		FB9170722479C7A800B1BCF6 /* AccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPresenter.swift; sourceTree = "<group>"; };
+		FB9170742479CD1600B1BCF6 /* AccountPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPresenterTests.swift; sourceTree = "<group>"; };
+		FB9170772479E5F500B1BCF6 /* AccountControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountControllerTests.swift; sourceTree = "<group>"; };
+		FB9170792479E64900B1BCF6 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB916F6E24799BBF00B1BCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB450E97247B950100C9BD46 /* VeritranBankEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB916F8424799BC200B1BCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB3955F1247B369A00BAD3EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB3955F2247B36B000BAD3EB /* AccountCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB3955F6247B71DD00BAD3EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FB3955F7247B71F000BAD3EB /* RouterTransfer.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FB916F6824799BBF00B1BCF6 = {
+			isa = PBXGroup;
+			children = (
+				FB916F7324799BBF00B1BCF6 /* VeritranBank-iOS */,
+				FB916F8A24799BC200B1BCF6 /* VeritranBank-iOSTests */,
+				FB916F7224799BBF00B1BCF6 /* Products */,
+				FB9170412479ACE800B1BCF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB916F7224799BBF00B1BCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB916F7124799BBF00B1BCF6 /* VeritranBank-iOS.app */,
+				FB916F8724799BC200B1BCF6 /* VeritranBank-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB916F7324799BBF00B1BCF6 /* VeritranBank-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FB3955F6247B71DD00BAD3EB /* Router */,
+				FB3955F1247B369A00BAD3EB /* Views */,
+				FB9170762479E5DE00B1BCF6 /* Controllers */,
+				FB9170712479C78300B1BCF6 /* Presenters */,
+				FB9170702479BBBF00B1BCF6 /* ViewControllers */,
+				FB916F7424799BBF00B1BCF6 /* AppDelegate.swift */,
+				FB916F7624799BBF00B1BCF6 /* SceneDelegate.swift */,
+				FB916F7A24799BBF00B1BCF6 /* Main.storyboard */,
+				FB916F7D24799BC200B1BCF6 /* Assets.xcassets */,
+				FB916F7F24799BC200B1BCF6 /* LaunchScreen.storyboard */,
+				FB916F8224799BC200B1BCF6 /* Info.plist */,
+			);
+			path = "VeritranBank-iOS";
+			sourceTree = "<group>";
+		};
+		FB916F8A24799BC200B1BCF6 /* VeritranBank-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB916F8D24799BC200B1BCF6 /* Info.plist */,
+				FB91706C2479B90800B1BCF6 /* AccountViewTests.swift */,
+				FB9170742479CD1600B1BCF6 /* AccountPresenterTests.swift */,
+				FB9170772479E5F500B1BCF6 /* AccountControllerTests.swift */,
+				FB3955EB247B271300BAD3EB /* AccountListViewControllerTests.swift */,
+				FB3955EF247B2CDF00BAD3EB /* AccountListControllerTests.swift */,
+				FB3955F9247B729200BAD3EB /* RouterTransferTests.swift */,
+			);
+			path = "VeritranBank-iOSTests";
+			sourceTree = "<group>";
+		};
+		FB9170412479ACE800B1BCF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB450E95247B94C900C9BD46 /* VeritranBankEngine.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB9170702479BBBF00B1BCF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB91706E2479BBAD00B1BCF6 /* AccountViewController.swift */,
+				FB3955E9247B233700BAD3EB /* AccountListViewController.swift */,
+				FB3955F4247B41BF00BAD3EB /* FactoryAlertController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB9170712479C78300B1BCF6 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				FB9170722479C7A800B1BCF6 /* AccountPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		FB9170762479E5DE00B1BCF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB9170792479E64900B1BCF6 /* AccountController.swift */,
+				FB3955ED247B293700BAD3EB /* AccounsListController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB916F7024799BBF00B1BCF6 /* VeritranBank-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB916F9024799BC200B1BCF6 /* Build configuration list for PBXNativeTarget "VeritranBank-iOS" */;
+			buildPhases = (
+				FB916F6D24799BBF00B1BCF6 /* Sources */,
+				FB916F6E24799BBF00B1BCF6 /* Frameworks */,
+				FB916F6F24799BBF00B1BCF6 /* Resources */,
+				FB450E99247B950100C9BD46 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VeritranBank-iOS";
+			productName = "VeritranBank-iOS";
+			productReference = FB916F7124799BBF00B1BCF6 /* VeritranBank-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB916F8624799BC200B1BCF6 /* VeritranBank-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB916F9324799BC200B1BCF6 /* Build configuration list for PBXNativeTarget "VeritranBank-iOSTests" */;
+			buildPhases = (
+				FB916F8324799BC200B1BCF6 /* Sources */,
+				FB916F8424799BC200B1BCF6 /* Frameworks */,
+				FB916F8524799BC200B1BCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB916F8924799BC200B1BCF6 /* PBXTargetDependency */,
+			);
+			name = "VeritranBank-iOSTests";
+			productName = "VeritranBank-iOSTests";
+			productReference = FB916F8724799BC200B1BCF6 /* VeritranBank-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB916F6924799BBF00B1BCF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = dansTeam;
+				TargetAttributes = {
+					FB916F7024799BBF00B1BCF6 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					FB916F8624799BC200B1BCF6 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+						TestTargetID = FB916F7024799BBF00B1BCF6;
+					};
+				};
+			};
+			buildConfigurationList = FB916F6C24799BBF00B1BCF6 /* Build configuration list for PBXProject "VeritranBank-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB916F6824799BBF00B1BCF6;
+			productRefGroup = FB916F7224799BBF00B1BCF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB916F7024799BBF00B1BCF6 /* VeritranBank-iOS */,
+				FB916F8624799BC200B1BCF6 /* VeritranBank-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB916F6F24799BBF00B1BCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB916F8124799BC200B1BCF6 /* LaunchScreen.storyboard in Resources */,
+				FB916F7E24799BC200B1BCF6 /* Assets.xcassets in Resources */,
+				FB916F7C24799BBF00B1BCF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB916F8524799BC200B1BCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB916F6D24799BBF00B1BCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3955F5247B41BF00BAD3EB /* FactoryAlertController.swift in Sources */,
+				FB916F7524799BBF00B1BCF6 /* AppDelegate.swift in Sources */,
+				FB3955F8247B71F000BAD3EB /* RouterTransfer.swift in Sources */,
+				FB3955F3247B36B000BAD3EB /* AccountCell.swift in Sources */,
+				FB91707A2479E64900B1BCF6 /* AccountController.swift in Sources */,
+				FB3955EA247B233700BAD3EB /* AccountListViewController.swift in Sources */,
+				FB91706F2479BBAD00B1BCF6 /* AccountViewController.swift in Sources */,
+				FB9170732479C7A800B1BCF6 /* AccountPresenter.swift in Sources */,
+				FB916F7724799BBF00B1BCF6 /* SceneDelegate.swift in Sources */,
+				FB3955EE247B293700BAD3EB /* AccounsListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB916F8324799BC200B1BCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9170752479CD1600B1BCF6 /* AccountPresenterTests.swift in Sources */,
+				FB3955FA247B729200BAD3EB /* RouterTransferTests.swift in Sources */,
+				FB9170782479E5F500B1BCF6 /* AccountControllerTests.swift in Sources */,
+				FB3955EC247B271300BAD3EB /* AccountListViewControllerTests.swift in Sources */,
+				FB91706D2479B90800B1BCF6 /* AccountViewTests.swift in Sources */,
+				FB3955F0247B2CDF00BAD3EB /* AccountListControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB916F8924799BC200B1BCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB916F7024799BBF00B1BCF6 /* VeritranBank-iOS */;
+			targetProxy = FB916F8824799BC200B1BCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB916F7A24799BBF00B1BCF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB916F7B24799BBF00B1BCF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB916F7F24799BC200B1BCF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB916F8024799BC200B1BCF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB916F8E24799BC200B1BCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB916F8F24799BC200B1BCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB916F9124799BC200B1BCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEWQUX8MPM;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "VeritranBank-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dansTeam.VeritranBank-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB916F9224799BC200B1BCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEWQUX8MPM;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "VeritranBank-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dansTeam.VeritranBank-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB916F9424799BC200B1BCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEWQUX8MPM;
+				INFOPLIST_FILE = "VeritranBank-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dansTeam.VeritranBank-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeritranBank-iOS.app/VeritranBank-iOS";
+			};
+			name = Debug;
+		};
+		FB916F9524799BC200B1BCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AEWQUX8MPM;
+				INFOPLIST_FILE = "VeritranBank-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dansTeam.VeritranBank-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeritranBank-iOS.app/VeritranBank-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB916F6C24799BBF00B1BCF6 /* Build configuration list for PBXProject "VeritranBank-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB916F8E24799BC200B1BCF6 /* Debug */,
+				FB916F8F24799BC200B1BCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB916F9024799BC200B1BCF6 /* Build configuration list for PBXNativeTarget "VeritranBank-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB916F9124799BC200B1BCF6 /* Debug */,
+				FB916F9224799BC200B1BCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB916F9324799BC200B1BCF6 /* Build configuration list for PBXNativeTarget "VeritranBank-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB916F9424799BC200B1BCF6 /* Debug */,
+				FB916F9524799BC200B1BCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB916F6924799BBF00B1BCF6 /* Project object */;
+}
